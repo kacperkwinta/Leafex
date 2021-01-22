@@ -1,0 +1,39 @@
+.main-page {
+  background: url(/images/main-image.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page__link {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.445);
+}
+
+.main-page__link:hover {
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid black;
+}
+
+@media (max-width: 1199px) {
+  .main-page__link {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-page__link {
+    font-size: 18px;
+  }
+}

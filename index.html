@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Leafex - kochamy zieleń</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/images/plant.svg">
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/main-page.css" />
+  <link rel="stylesheet" href="/css/main-navigation.css" />
+  <link rel="stylesheet" href="/css/about-us.css" />
+  <link rel="stylesheet" href="/css/container.css" />
+  <link rel="stylesheet" href="/css/services.css" />
+  <link rel="stylesheet" href="/css/scrollup.css">
+</head>
+
+<body>
+  <nav class="main-navigation">
+    <div class="main-navigation__container">
+      <div class="main-navigation__logo">
+        <a href="#" class="main-navigation__logo-link">
+          Leafex
+          <img src="/images/plant.svg" alt="Logo" class="main-navigation__logo-image" />
+        </a>
+      </div>
+      <ul class="main-navigation__menu js-main-navigation__menu">
+        <li class="main-navigation__menu-item">
+          <a href="#" class="main-navigation__menu-link"> Home </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#about-us" class="main-navigation__menu-link"> O nas </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#services" class="main-navigation__menu-link"> Oferta </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#gallery" class="main-navigation__menu-link"> Galeria </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="#contact" class="main-navigation__menu-link"> Kontakt </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="https://www.facebook.com/" class="main-navigation__social-link">
+            <img src="/images/facebook.svg" alt="Facebook" class="main-navigation__social-icon" />
+          </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="https://www.instagram.com/" class="main-navigation__social-link">
+            <img src="images/instagram.svg" alt="Instagram" class="main-navigation__social-icon" />
+          </a>
+        </li>
+        <li class="main-navigation__menu-item">
+          <a href="https://pl.linkedin.com/" class="main-navigation__social-link">
+            <img src="images/linkedin.svg" alt="LinkedIn" class="main-navigation__social-icon" />
+          </a>
+        </li>
+      </ul>
+      <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+        <img src="/images/menu.svg" alt="Otwórz / zamknij nawigację" class="main-navigation__mobile-button-image" />
+      </button>
+    </div>
+  </nav>
+
+  <a href="#" class="scrollup"></a>
+
+  <script src="/js/main-navigation.js"></script>
+
+  <section class="main-page">
+    <a href="#about-us" class="main-page__link"> Poznaj nas </a>
+  </section>
+
+  <div class="container container-about-us" id="about-us">
+    <section class="about-us">
+      <div class="about-us__text">
+        <h1 class="about-us__header">Stworzymy ogród Twoich marzeń</h1>
+        <p class="about-us__paragraph">
+          Od zawsze kochaliśmy zajmować się roślinami, i wszystkim co z tym
+          związane. Oferujemy kompleksowe usługi ogrodnicze, które wywodzą się
+          z naszej pasji. Na swoim koncie posiadamy kilkadziesiąt wykonanych
+          projektów, a każdy z nich został wykonany zgodnie z wizją klienta. Cechuje nas
+          wysoki poziom estetyki.
+          Posiadamy własne zaplecze profesjonalnego sprzętu oraz wieloletnie doświadczenie w branży
+          ogrodniczej, które pozwoliło nam dostosować się do wysokich wymagań
+          klientów. Staramy się aby każdy nasz projekt i realizacja była
+          oryginalna, i aby przebywanie w stworzonych przez nas przestrzeniach
+          była przyjemnością.
+        </p>
+        <a href="#services" class="about-us__button">Oferta 👇</a>
+      </div>
+
+      <img src="/images/about-us1.jpg" class="about-us__image" />
+    </section>
+  </div>
+
+  <div class="services" id="services">
+    <div class="grid-container">
+      <h2 class="services__title">Wybierz coś dla siebie</h2>
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/pexels-anna-shvets-5230972.jpg" />
+            <div class="card-content">
+              <h1 class="card-header">Standard 🌼</h1>
+              <p class="card-text">
+                Będziemy zaglądać do Ciebie co tydzień, i zajmować się:
+              </p>
+              <ul class="card-ul">
+                <li class="card-ul-li">Pielęgnacją trawnika</li>
+                <li class="card-ul-li">Przycinaniem drzew i krzewów</li>
+                <li class="card-ul-li">Nawożeniem</li>
+                <li class="card-ul-li">Zabezpieczeniem roślin na zimę</li>
+                <li class="card-ul-li">Odchwaszczaniem</li>
+              </ul>
+            </div>
+            <button class="card-btn">Wybierz</button>
+
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/pexels-anna-shvets-5231045 (1).jpg" />
+            <div class="card-content">
+              <h1 class="card-header">Expert 🍀</h1>
+              <p class="card-text">
+                W tym pakiecie aż dwie wizyty w tygodniu, gwarantujemy to co w
+                pakiecie Standard, plus:
+              </p>
+              <ul class="card-ul">
+                <li class="card-ul-li">Całoroczna pielęgnacja</li>
+                <li class="card-ul-li">Opryski</li>
+                <li class="card-ul-li">Prace porządkowe</li>
+                <li class="card-ul-li">Odśnieżanie</li>
+                <li class="card-ul-li">Zakup roślin i materiałów</li>
+                <li class="card-ul-li">Przygotowanie terenu</li>
+              </ul>
+            </div>
+            <button class="card-btn">Wybierz</button>
+
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="/images/pexels-kaboompics-com-5808.jpg" />
+            <div class="card-content">
+              <h1 class="card-header">Special 🌳</h1>
+              <p class="card-text">
+                Wykonamy dla Ciebie Twój własny projekt, w skład którego wchodzi:
+              <ul class="card-ul">
+                <li class="card-ul-li">Wizualizacja 3D</li>
+                <li class="card-ul-li">Plan rozmieszczenia</li>
+                <li class="card-ul-li">Wycena materiałów</li>
+                <li class="card-ul-li">Kosztorys prac</li>
+                <li class="card-ul-li">Spis roślin</li>
+                <li class="card-ul-li">Projekt główny</li>
+              </ul>
+              </p>
+            </div>
+            <button class="card-btn">Wybierz</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
