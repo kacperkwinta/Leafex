@@ -1,5 +1,5 @@
 .main-page {
-  background: url(images/main-image.jpg);
+  background: url(/images/main-image.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
