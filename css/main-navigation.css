@@ -61,7 +61,7 @@
     top: 0;
     right: 0;
     left: 0;
-    background: url(/images/mobile-menu-background.png);
+    background: url(../images/mobile-menu-background.png);
     flex-direction: column;
     justify-content: center;
     align-items: center;
