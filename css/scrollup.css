@@ -1,7 +1,7 @@
 .scrollup {
     height: 42px;
     width: 42px;
-    background: url(/images/up-arrow.svg) no-repeat 0px 0px;
+    background: url(../images/up-arrow.svg) no-repeat 0px 0px;
     text-decoration: none;
     position: fixed;
     right: 32px;
