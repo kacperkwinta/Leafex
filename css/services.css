@@ -133,7 +133,7 @@
 .card-btn:active {
   background-color: #4fc16d9c;
   transform: scale(1.05);
-  box-shadow: 0 0 30px  #4fc16d9c;
+  box-shadow: 0 0 30px #4fc16d9c;
 }
 
 .card-ul-li {
