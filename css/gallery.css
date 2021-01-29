@@ -1,0 +1,29 @@
+.gallery__image-small {
+  width: 500px;
+  transition: 0.3s;
+  margin: 15px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+@media (max-width: 767px) {
+  .gallery__image-small {
+    width: 250px;
+  }
+}
+
+.gallery__image-small:hover {
+  transform: scale(1.05);
+}
+
+.gallery-container {
+  height: 100vh;
+  padding: 50px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
