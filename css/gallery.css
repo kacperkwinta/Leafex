@@ -1,8 +1,10 @@
 .gallery__image-small {
+  display: block;
   width: 500px;
   transition: 0.3s;
   margin: 15px;
   box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
 }
 
 @media (max-width: 767px) {
@@ -13,6 +15,7 @@
 
 .gallery__image-small:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px #ccc;
 }
 
 .gallery-container {
