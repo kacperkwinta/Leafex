@@ -7,11 +7,20 @@
   margin: 15px;
   box-shadow: 0 0 10px #ccc;
   border-radius: 5px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .gallery__image-small {
+    width: 600px;
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
   .gallery__image-small {
-    width: 250px;
+    width: 300px;
+    height: auto;
   }
 }
 
@@ -22,7 +31,7 @@
 
 .gallery-container {
   height: 100vh;
-  padding: 50px;
+  padding: 100px 50px 50px 50px;
 }
 
 .gallery-images {
@@ -31,4 +40,16 @@
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+@media (max-width: 767px) {
+  .gallery-header {
+    font-size: 25px;
+  }
 }
