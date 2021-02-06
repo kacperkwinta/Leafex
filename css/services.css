@@ -138,12 +138,12 @@
   box-shadow: 0 0 20px #c2ea209c;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .card-btn {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: black;
     background-color: #c2ea209c;
