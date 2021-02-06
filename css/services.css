@@ -138,7 +138,7 @@
   box-shadow: 0 0 20px #c2ea209c;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card-btn {
     display: block;
     margin: 0 auto;
