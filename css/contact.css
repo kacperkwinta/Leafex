@@ -139,7 +139,7 @@
 .contact-field-textarea::placeholder {
   vertical-align: middle;
   text-align: center;
-  line-height: 186px;
+  line-height: 184px;
 }
 
 .contact-field-textarea::-webkit-scrollbar {
