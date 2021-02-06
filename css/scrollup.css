@@ -8,16 +8,18 @@
   bottom: 32px;
   z-index: 1;
   transition: 0.3s;
+  opacity: 0.5;
 }
 
 .scrollup:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
   .scrollup {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     right: 10px;
     bottom: 10px;
   }
