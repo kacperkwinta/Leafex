@@ -18,9 +18,6 @@
 
 @media (max-width: 767px) {
   .scrollup {
-    width: 20px;
-    height: 20px;
-    right: 10px;
-    bottom: 10px;
+    display: none;
   }
 }
