@@ -88,12 +88,17 @@
   height: 50px;
   margin: 10px;
   box-shadow: 0 0 10px #ccc;
+  transition: 0.5s;
 }
 
 @media (max-width: 767px) {
   .contact-field {
     width: 90%;
   }
+}
+
+.contact-field:focus {
+  box-shadow: 0 0 30px #ccc;
 }
 
 .contact-field-textarea {
