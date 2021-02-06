@@ -9,9 +9,15 @@
   box-shadow: 0px 0px 20px 0px #ccc;
   background-size: cover;
   display: block;
-  height: 60%;
+  max-height: 60%;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media (max-width: 1199px) {
+  .about-us__image {
+    max-height: 50%;
+  }
 }
 
 @media (max-width: 861px) {
