@@ -132,7 +132,7 @@
 }
 
 .contact-field::placeholder {
-  color: rgba(204, 204, 204, 0.959);
+  color: #ccc;
   text-align: center;
 }
 
