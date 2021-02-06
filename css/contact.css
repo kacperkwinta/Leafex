@@ -87,7 +87,7 @@
   width: 500px;
   height: 50px;
   margin: 10px;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 5px #ccc;
   transition: 0.3s;
 }
 
@@ -98,13 +98,13 @@
 }
 
 .contact-field:focus {
-  box-shadow: 0 0 30px #ccc;
+  box-shadow: 0 0 20px #ccc;
 }
 
 .contact-field-textarea {
   height: 200px;
   resize: vertical;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 5px #ccc;
 }
 
 .contact-button {
@@ -116,15 +116,12 @@
   border-radius: 20px;
   transition: 0.3s;
   cursor: pointer;
-  letter-spacing: 1.2;
-  text-transform: uppercase;
-  box-shadow: 0 0 20px #CCF3ED;
+  box-shadow: 0 0 20px #ccf3ed;
 }
 
 .contact-button:hover {
   box-shadow: 0 0 30px #2cf5de6b;
   background: rgb(180, 238, 228);
-
 }
 
 .contact-fields-container {
