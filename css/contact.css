@@ -110,18 +110,17 @@
 .contact-button {
   height: 40px;
   width: 100px;
-  background: rgba(180, 238, 228, 0.699);
+  background: #c2ea207e;
   color: black;
   border: 1px white;
   border-radius: 20px;
   transition: 0.3s;
   cursor: pointer;
-  box-shadow: 0 0 20px #ccf3ed;
+  box-shadow: 0 0 10px #c2ea2094;
 }
 
 .contact-button:hover {
-  box-shadow: 0 0 30px #2cf5de6b;
-  background: rgb(180, 238, 228);
+  box-shadow: 0 0 15px #c2ea20;
 }
 
 .contact-fields-container {
