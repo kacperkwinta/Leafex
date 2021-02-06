@@ -28,6 +28,8 @@
 @media (max-width: 767px) {
   .contact-icon {
     height: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
