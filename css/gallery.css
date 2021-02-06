@@ -24,6 +24,14 @@
   }
 }
 
+@media (max-width: 320px) {
+  .gallery__image-small {
+    height: auto;
+    width: 100%;
+    margin: 5px;
+  }
+}
+
 .gallery__image-small:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px #ccc;
@@ -31,6 +39,12 @@
 
 .gallery-container {
   padding: 100px 50px 50px 50px;
+}
+
+@media (max-width: 320px) {
+  .gallery-container {
+    padding: 10px;
+  }
 }
 
 .gallery-images {

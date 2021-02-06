@@ -114,6 +114,13 @@
   color: #777;
 }
 
+@media (max-width: 320px) {
+  .card-text {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
 .card-btn {
   position: relative;
   top: -20px;
@@ -131,6 +138,12 @@
   box-shadow: 0 0 20px #c2ea209c;
 }
 
+@media (max-width: 320px) {
+  .card-btn {
+    font-size: 16px;
+  }
+}
+
 .card-btn span {
   transition: 0.3s;
 }
@@ -146,6 +159,12 @@
   color: #777;
   font-size: 18px;
   margin: 5px;
+}
+
+@media (max-width: 320px) {
+  .card-ul-li {
+    font-size: 16px;
+  }
 }
 
 .services-button-link {
