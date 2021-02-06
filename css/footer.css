@@ -1,4 +1,13 @@
-.footer {
+.footer-icon {
+    height: 18px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    margin: 10px;
     color: #ccc;
 }
