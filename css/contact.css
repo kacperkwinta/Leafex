@@ -83,7 +83,7 @@
 .contact-field {
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   width: 500px;
   height: 50px;
   margin: 10px;
@@ -130,7 +130,7 @@
 }
 
 .contact-field::placeholder {
-  color: #ccc;
+  color: rgb(148, 148, 148);
   text-align: center;
 }
 
