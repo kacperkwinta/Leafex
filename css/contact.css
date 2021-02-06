@@ -10,9 +10,137 @@
   }
 }
 
-.footer {
-  padding: 10px;
-  color: #777;
+.contact-container {
+  padding: 100px;
+}
+@media (max-width: 767px) {
+  .contact-container {
+    padding: 0px;
+  }
+}
+
+.contact-icon {
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-icon {
+    height: 20px;
+  }
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  .contact-link {
+    font-size: 18px;
+  }
+}
+
+.contact-inner {
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .contact-inner {
+    flex-wrap: wrap;
+  }
+}
+
+.contact-inner-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.contact-paragraph {
   text-align: center;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.contact-fields {
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .contact-fields {
+    width: 100%;
+  }
+}
+
+.contact-field {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+@media (max-width: 767px) {
+  .contact-field {
+    width: 90%;
+  }
+}
+
+.contact-field:focus {
+  outline: none;
+}
+
+.contact-field-textarea {
+  height: 200px;
+  resize: vertical;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.contact-button {
+  height: 40px;
+  width: 80px;
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 1.2;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+}
+
+.contact-fields-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.contact-field::placeholder {
+  color: rgba(204, 204, 204, 0.959);
+  text-align: center;
+}
+
+.contact-field-textarea::placeholder {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 190px;
+}
+
+.contact-field-textarea::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
