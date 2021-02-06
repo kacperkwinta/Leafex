@@ -109,19 +109,22 @@
 
 .contact-button {
   height: 40px;
-  width: 80px;
-  background: white;
+  width: 100px;
+  background: rgba(180, 238, 228, 0.699);
   color: black;
-  border: 1px solid #ccc;
+  border: 1px white;
   border-radius: 20px;
   transition: 0.3s;
   cursor: pointer;
   letter-spacing: 1.2;
-  box-shadow: 0 0 10px #ccc;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px #CCF3ED;
 }
 
 .contact-button:hover {
-  transform: scale(1.05);
+  box-shadow: 0 0 30px #2cf5de7e;
+  background: rgb(180, 238, 228);
+
 }
 
 .contact-fields-container {
