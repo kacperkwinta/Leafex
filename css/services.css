@@ -121,51 +121,6 @@
   }
 }
 
-.card-btn {
-  position: relative;
-  top: -20px;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  background-color: #c2ea209c;
-  border: none;
-  border-radius: 20px;
-  transition: 0.3s;
-  cursor: pointer;
-  box-shadow: 0 0 20px #c2ea209c;
-}
-
-@media (max-width: 425px) {
-  .card-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    font-size: 18px;
-    text-align: center;
-    color: black;
-    background-color: #c2ea209c;
-    border: none;
-    border-radius: 20px;
-    transition: 0.3s;
-    cursor: pointer;
-    box-shadow: 0 0 20px #c2ea209c;
-  }
-}
-
-.card-btn span {
-  transition: 0.3s;
-}
-
-.card-btn:hover,
-.card-btn:active {
-  background-color: #4fc16d9c;
-  transform: scale(1.05);
-  box-shadow: 0 0 30px #4fc16d9c;
-}
-
 .card-ul-li {
   color: #777;
   font-size: 18px;
